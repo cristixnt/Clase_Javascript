@@ -222,4 +222,71 @@ string 'hola' -> true
 '0' -> true
 */
 
+// Operadores básicos
+
+// Operadores  binarios
+
+let res;
+res = a + b;
+res = a - b;
+res = a * b;
+res = a / b;
+res = a % b; //mod
+res = a ** b; //potencia (base y exponente)
+
+console.log('1' + 2); //12
+console.log(1 + '2'); //12
+console.log(1 + 2 + '2'); //32
+console.log('1' + 2 + 2); //122
+
+
+// Operación Unaria +
+a = 1;
+// console.log(+a);
+a= -1;
+// console.log(+a);
+// console.log(+true);
+// console.log(+false);
+// console.log(+NaN);
+// console.log(+undefined);
+// console.log(+null);
+// console.log(+"");
+
+a = "2";
+b = "3";
+
+// console.log(+a + +b);
+// console.log(Number(a) + Number(b));
+
+
+// Asignaciones
+
+a = 2 + 3;
+a = b = c = 2 + 3;
+
+c = 3 - (a = b + 1)
+
+
+// Incremento y Decremento
+
+a = 2;
+a++;
+// console.log(a);
+a--;
+// console.log(a);
+
+// Posición del incremento o decremento
+
+s = 1;
+b = ++ a;
+// console.log(b); 2
+
+a = 1;
+b = a++;
+c = a;
+// console.log(b); //1
+// console.log(c); //2
+
+
+
 
